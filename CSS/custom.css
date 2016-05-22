@@ -1,0 +1,115 @@
+/* For desktop: */
+  .col-1 {
+    width: calc(100% / 12);
+  }
+
+  .col-2 {
+    width: calc(100% / 12 * 2);
+  }
+
+  .col-3 {
+    width: calc(100% / 12 * 3);
+  }
+
+  .col-4 {
+    width: calc(100% / 12 * 4);
+  }
+
+  .col-5 {
+    width: calc(100% / 12 * 5);
+  }
+
+  .col-6 {
+    width: calc(100% / 12 * 6);
+  }
+
+  .col-7 {
+    width: calc(100% / 12 * 7);
+  }
+
+  .col-8 {
+    width: calc(100% / 12 * 8);
+  }
+
+  .col-9 {
+    width: calc(100% / 12 * 9);
+  }
+
+  .col-10 {
+    width: calc(100% / 12 * 10);
+  }
+
+  .col-11 {
+    width: calc(100% / 12 * 11);
+  }
+
+  .col-12 {
+    width: calc(100% / 12 * 12);
+  }
+
+  .name {
+    text-align: right;
+    height: 15px;
+  }
+
+  .description {
+    text-align: right;
+  }
+
+  .main-photo {
+    margin:auto;
+  }
+
+  .git-photo {
+    position: relative;
+    width: auto;
+    height: auto;
+  }
+
+  .ez-logo {
+    position: relative;
+    width: auto;
+    height: auto;
+  }
+
+  .ez-site {
+    position: relative;
+    width: auto;
+    height: auto;
+  }
+
+  .skill-photos {
+    margin:0 auto;
+  }
+
+  .skill-descriptions {
+    font-size: 25px;
+    font-style: normal;
+    text-align: center;
+  }
+
+  .logo {
+    width: 150px;
+    height: 80px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+
+    .logo {
+      margin: auto;
+      margin-bottom: -15px;
+    }
+
+    .name {
+      text-align: center;
+      height:auto;
+    }
+
+    .description {
+      text-align: center;
+    }
+  }
